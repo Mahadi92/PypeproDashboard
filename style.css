@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 
 *{
@@ -7,7 +7,8 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-
+    margin: 0;
+    padding: 0;
 }
 .bg-custom{
     background: #133159;
@@ -29,23 +30,21 @@ body{
     height: 40px;
 }
 .nav-icon{
-    /* font-size: 25px; */
-    /* display: inline-block;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    margin: 10px; */
     padding: 8px 9px;
     color: white;
     border-radius: 50%;
     background: #3C7EF3;
     
 }
+/* ////// Sidebar ////// */
 .sidebar-item li{
     padding: 10px 15px;
+    margin-bottom: 5px;
     border-radius: 10px;
     transition: all ease 0.2s;
+}
+.active{
+    background: #3C7EF3;
 }
 .sidebar-item li:hover{
     background: #3C7EF3;
@@ -56,6 +55,11 @@ body{
     font-size: 16px;
     color: #fff;
 }
+.content-section{
+    background: #fff;
+    border-radius: 10px;
+}
+/* //////// Deals Header ///////// */
 .arrange-icon .fas{
     font-size: 20px;
     padding: 10px;
@@ -70,7 +74,8 @@ body{
 .arrange-icon .fas:last-child{
     border-radius: 0px 8px 8px 0px;
 }
-.arrange-icon .fas:hover{
+.arrange-icon .fas:hover,
+.eye-custom:hover{
     color: #fff;
     background: #133159;
     transition: all ease 0.2s;

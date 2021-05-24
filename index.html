@@ -95,10 +95,19 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
                                 <li class="nav-item">
-                                    <form class="d-flex">
-                                        <input class="form-control me-2" type="search" placeholder="Search"
-                                            aria-label="Search">
-                                        <button class="btn btn-outline-success" type="submit">Search</button>
+                                    <form class="d-flex mt-4">
+                                        <div class="p-1 bg-light rounded rounded-pill border shadow-sm mb-4">
+                                            <div class="input-group">
+                                                <input type="search" placeholder="Search"
+                                                    aria-describedby="button-addon1"
+                                                    class="form-control border-0 bg-light">
+                                                <div class="input-group-append">
+                                                    <button id="button-addon1" type="submit"
+                                                        class="btn btn-link text-primary"><i class="fa fa-search"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </form>
                                 </li>
                                 <li class="nav-item">
@@ -174,7 +183,7 @@
 
                     <div class="row px-5">
 
-                        <div class="col-md-3">
+                        <div class="col-md-3 mb-sm-2">
                             <select class="form-select" aria-label="Default select example">
                                 <option selected>Open this select menu</option>
                                 <option value="1">One</option>
@@ -182,7 +191,7 @@
                                 <option value="3">Three</option>
                             </select>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 mt-sm-2">
                             <select class="form-select" aria-label="Default select example">
                                 <option selected>Active</option>
                                 <option value="1">One</option>
@@ -199,7 +208,7 @@
                             </select>
                             <i class=""></i>
                         </div>
-                        <div class="col-md-6 d-flex justify-content-end align-center-center">
+                        <div class="col-md-6 d-flex justify-content-md-end align-center-center">
 
                             <div class="w-75 p-1 bg-light rounded rounded-pill border shadow-sm mb-4">
                                 <div class="input-group">
@@ -584,7 +593,7 @@
                                 <h5 class="action-lost text-center"> <i class="fas fa-sad-tear"></i> Lost</h5>
                             </div>
                             <div class="col-md-3">
-                                <h5 class="action-pipeline text-center"> <i class="far fa-trash-alt"></i> Pipeline</h5>
+                                <h5 class="action-pipeline text-center">Pipeline</h5>
                             </div>
                         </div>
                     </section>

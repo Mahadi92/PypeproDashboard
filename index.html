@@ -34,46 +34,46 @@
                     <div class="sidebar-header pt-4 ps-4">
                         <a class="navbar-brand brand-icon" href="#"><img src="./images/logo.png" class="img-fluid"
                                 alt="">
-                            <span class="fs-3 text-white">Pypepro</span>
+                            <span class="fs-3 text-white brand-name">Pypepro</span>
                         </a>
 
                     </div>
                     <ul class="list-unstyled components py-4 ps-4 sidebar-item">
                         <li>
-                            <a href="#"><i class="fas fa-home"></i> Home</a>
+                            <a href="#"><i class="fas fa-home"></i> <span>Home</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-inbox"></i> Inbox</a>
+                            <a href="#"><i class="fas fa-inbox"></i> <span>Inbox</span></a>
                         </li>
                         <li class="active">
-                            <a href="#"><i class="fas fa-dollar-sign"></i> Deals</a>
+                            <a href="#"><i class="fas fa-dollar-sign"></i> <span>Deals</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-calendar-week"></i> Calender</a>
+                            <a href="#"><i class="fas fa-calendar-week"></i> <span>Calender</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-user-friends"></i> Contact</a>
+                            <a href="#"><i class="fas fa-user-friends"></i> <span>Contact</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-bullhorn"></i> Marketing</a>
+                            <a href="#"><i class="fas fa-bullhorn"></i> <span>Marketing</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-search-location"></i> Find New Leads</a>
+                            <a href="#"><i class="fas fa-search-location"></i> <span>Find New Leads</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-calendar-week"></i> Triggers</a>
+                            <a href="#"><i class="fas fa-calendar-week"></i> <span>Triggers</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-chart-pie"></i> Reporting</a>
+                            <a href="#"><i class="fas fa-chart-pie"></i> <span>Reporting</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-cog"></i> Setting</a>
+                            <a href="#"><i class="fas fa-cog"></i> <span>Setting</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-play-circle"></i> Training</a>
+                            <a href="#"><i class="fas fa-play-circle"></i> <span>Training</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-user"></i> Accounts</a>
+                            <a href="#"><i class="fas fa-user"></i> <span>Accounts</span></a>
                         </li>
                         <button type="button" id="sidebarCollapse" class="btn fs-3 text-primary">
                             <i class="fas fa-align-left"></i>
@@ -82,7 +82,7 @@
                 </nav>
             </div>
 
-            <div class="col-md-10 p-0 m-0" style="background: #E5E5E5">
+            <div class="col-md-10 main-content p-0 m-0" style="background: #E5E5E5">
 
                 <!-- --------- Header Navbar ---------- -->
                 <nav class="navbar navbar-expand-lg navbar-custom bg-custom">
@@ -114,18 +114,18 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#"><i class="fas fa-question nav-icon"></i></a>
                                 </li>
-                                <li class="nav-item me-4 dropdown">
+                                <li class="nav-item me-4 dropdown" style="width: 255px">
                                     <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         <div class="row d-flex justify-content-end align-items-center">
-                                            <div class="col-2">
+                                            <div class="col-3 d-flex justify-content-end">
                                                 <img src="./images/profile.png" class="profile" alt="">
                                             </div>
-                                            <div class="col-6 text-white">
+                                            <div class="col-7 text-white">
                                                 <span>Admin</span>
                                                 <span>admin@gmail.com</span>
                                             </div>
-                                            <div class="col-1">
+                                            <div class="col-2">
                                                 <i class="fas fa-sort-down"></i>
                                             </div>
                                         </div>
@@ -573,8 +573,19 @@
                     <!-- ---------- Action section --------- -->
 
                     <section>
-                        <div class="action">
-                            <h5 class="delete"> <i class="far fa-trash-alt"></i> Delete</h5>
+                        <div class="action row px-3">
+                            <div class="col-md-3">
+                                <h5 class="action-delete text-center"> <i class="far fa-trash-alt"></i> Delete</h5>
+                            </div>
+                            <div class="col-md-3">
+                                <h5 class="action-win text-center"> <i class="fas fa-trophy"></i> Win</h5>
+                            </div>
+                            <div class="col-md-3">
+                                <h5 class="action-lost text-center"> <i class="fas fa-sad-tear"></i> Lost</h5>
+                            </div>
+                            <div class="col-md-3">
+                                <h5 class="action-pipeline text-center"> <i class="far fa-trash-alt"></i> Pipeline</h5>
+                            </div>
                         </div>
                     </section>
 
@@ -592,6 +603,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>

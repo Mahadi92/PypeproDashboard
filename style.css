@@ -59,6 +59,15 @@ body{
     font-size: 16px;
     color: #fff;
 }
+.collapsed .sidebar-item li{
+    text-align: center;
+}
+.collapsed .sidebar-item li a{
+    font-size: 20px;
+}
+.collapsed .sidebar-item li a span{
+    display: none;
+}
 .content-section{
     background: #fff;
     border-radius: 10px;
@@ -191,12 +200,26 @@ body{
 
 /* //// Action section ///// */
 .action h5{
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.action-delete{
     color: #FF5858;
     border: 1px solid #FF5858;
-    padding: 5px 20px;
-
 }
-
+.action-win{
+    color: #6FCF97;
+    border: 1px solid #6FCF97;
+}
+.action-lost{
+    color: #FF5858;
+    border: 1px solid #FF5858;
+}
+.action-pipeline{
+    color: #FFB053;
+    border: 1px solid #FF5858;
+}
 
 
 
